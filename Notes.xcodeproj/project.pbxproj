@@ -82,7 +82,7 @@
 			children = (
 				8B8C1D0129F58E68003EE003 /* NotesApp.swift */,
 				8B8C1D1429F5948D003EE003 /* Model */,
-				8B8C1D1329F59484003EE003 /* Vies */,
+				8B8C1D1329F59484003EE003 /* Views */,
 				8B8C1D0529F58E6E003EE003 /* Assets.xcassets */,
 				8B8C1D0729F58E6E003EE003 /* Preview Content */,
 			);
@@ -97,12 +97,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8B8C1D1329F59484003EE003 /* Vies */ = {
+		8B8C1D1329F59484003EE003 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				8B8C1D0329F58E68003EE003 /* ContentView.swift */,
 			);
-			path = Vies;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		8B8C1D1429F5948D003EE003 /* Model */ = {
