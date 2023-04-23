@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
 	// MARK: - Properties.
+	@AppStorage("lineCount") var lineCount: Int = 1
 	/// Collection of all notes
 	@State private var notes: [Note] = []
 	/// Text for the note.
@@ -48,7 +49,7 @@ struct ContentView: View {
 										.frame(width: 4)
 										.foregroundColor(.accentColor)
 									Text(notes[i].text)
-										.lineLimit(1)
+										.lineLimit(lineCount)
 										.padding(.leading, 5)
 								}
 							}

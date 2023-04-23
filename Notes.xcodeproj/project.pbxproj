@@ -16,6 +16,7 @@
 		8B8C1D1829F5AF2D003EE003 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C1D1729F5AF2D003EE003 /* DetailView.swift */; };
 		8B8C1D1B29F5B2F3003EE003 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C1D1A29F5B2F3003EE003 /* CreditsView.swift */; };
 		8B8C1D1E29F5B3A7003EE003 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C1D1D29F5B3A7003EE003 /* HeaderView.swift */; };
+		8B8C1D2029F5BB1F003EE003 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C1D1F29F5BB1F003EE003 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8B8C1D1729F5AF2D003EE003 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		8B8C1D1A29F5B2F3003EE003 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		8B8C1D1D29F5B3A7003EE003 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8B8C1D1F29F5BB1F003EE003 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				8B8C1D1729F5AF2D003EE003 /* DetailView.swift */,
 				8B8C1D1A29F5B2F3003EE003 /* CreditsView.swift */,
 				8B8C1D1D29F5B3A7003EE003 /* HeaderView.swift */,
+				8B8C1D1F29F5BB1F003EE003 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8C1D2029F5BB1F003EE003 /* SettingsView.swift in Sources */,
 				8B8C1D0429F58E68003EE003 /* ContentView.swift in Sources */,
 				8B8C1D1E29F5B3A7003EE003 /* HeaderView.swift in Sources */,
 				8B8C1D1829F5AF2D003EE003 /* DetailView.swift in Sources */,

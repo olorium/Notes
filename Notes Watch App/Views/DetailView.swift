@@ -11,6 +11,8 @@ struct DetailView: View {
 	// MARK: - Properties
 	/// Used to present credits view.
 	@State private var isCreditsPresented: Bool = false
+	/// Used to present settings view
+	@State private var isSettingsPresented: Bool = false
 	/// Note for this view.
 	let note: Note
 	/// Total number of notes.
@@ -37,6 +39,10 @@ struct DetailView: View {
 			HStack(alignment: .center) {
 				Image(systemName: "gear")
 					.imageScale(.large)
+					.onTapGesture {
+						isSettingsPresented.toggle()
+					}
+					.sheet(isPresented: $isSettingsPresented) { SettingsView() }
 				Spacer()
 				Text("\(count) / \(index + 1)")
 				Spacer()
